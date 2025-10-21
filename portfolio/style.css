@@ -1,0 +1,13 @@
+/* Selecting by TAG NAME */
+body {
+	background-color: red;
+}
+
+a {
+	color: purple;
+}
+
+ul {
+	border: 2px solid green;
+	list-style-type: none;
+}

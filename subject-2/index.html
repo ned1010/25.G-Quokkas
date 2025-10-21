@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <!--Meta data -->
+    <head>
+        <meta name="author" content="Ned">
+        <meta name="description" content="A simiple html page">
+        <meta name="keywords" content="Books, Harry Potter">
+        <title>Book Store: Harry Potter</title>
+    </head>
+    <!--BODY: All the contents on your webpage (stuff you see on your webpage)-->
+    <body>
+        <!--Heading 1 (h1) - largest text in html-->
+        <h1>Welcome to Quokkas</h1>
+        <!--Heading 2 (h2) - second largest text in html-->
+        <h2>Heading 2: Welcome to Quokkas</h2>
+        <h3>Heading 3: Welcome to Quokkas</h3>
+        <h4>Heading 4: Welcome to Quokkas</h4>
+        <h5>Heading 5: Welcome to Quokkas</h5>
+        <h6>Heading 6: Welcome to Quokkas</h6>
+        <!--Paragraphs-->
+        <p>
+            <strong>Welcome to Quokkas.</strong>
+            This is a course where we study about frontend, backend, and database comprising of
+            <em>MongoDB, Git and GitHub.</em>
+        </p>
+        <!-- Hyperlink (anchor tags) - linking pages-->
+        <a href="https://www.youtube.com/" target="_blank">Youtube</a>
+        <!-- Images: self-closing tags -->
+        <img src="https://images.unsplash.com/photo-1524586410818-196d249560e4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1952" width="250px">
+        <!-- Divider  -->
+        <div>
+            <!-- Nested elements  -->
+            <h1>Doppleganger Exercise</h1>
+            <div>
+                <h2>My favourite guitar player is John Mayor</h2>
+            </div>
+        </div>
+        <!-- Unordered -->
+        <h3>Unordered List: Soccer Players</h3>
+        <ul>
+            <li>Messi</li>
+            <li>Ronaldo</li>
+            <li>Pepe</li>
+        </ul>
+        <!--Ordered List-->
+        <h3>Orderd List: Tennis Players</h3>
+        <ol>
+            <li>Federer</li>
+            <li>Nadal</li>
+            <li>Alacaraz</li>
+        </ol>
+        <!--Tables-->
+        <h3>Tables</h3>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>EQC</td>
+                    <td>01923</td>
+                    <td>Australia</td>
+                </tr>
+                <tr>
+                    <td>Google</td>
+                    <td>12345</td>
+                    <td>New Zealand</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td colspan="2">10000</td>
+                </tr>
+            </tfoot>
+        </table>
+        <!--Form-->
+        <h3>Form</h3>
+        <form action="">
+            <label>
+                Username
+                <input type="text" placeholder="John">
+            </label>
+            <br>
+            <label>
+                Password
+                <input type="password" placeholder="enter your password">
+            </label>
+            <br>
+            <h6>Select Your class</h6>
+            <label for="25">
+                25
+            </label>
+            <input
+                type="radio"
+                id="25"
+                value="25"
+                name="class"
+            >
+            <label for="30">
+                30
+            </label>
+            <input
+                type="radio"
+                id="30"
+                value="30"
+                name="class"
+            >
+            <!--Checkbox-->
+            <h3>Select your courses</h3>
+            <label for="web">Web Dev</label>
+            <input
+                type="checkbox"
+                id="web"
+                value="Web Dev"
+                name="web"
+            >
+            <br>
+            <label for="cyber">Cyber</label>
+            <input
+                type="checkbox"
+                id="cyber"
+                name="cyber"
+                value="Cyber"
+            >
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
