@@ -1,6 +1,6 @@
 /* Selecting by TAG NAME */
 body {
-	background-color: red;
+	/* background-color: red; */
 }
 
 a {
@@ -8,6 +8,67 @@ a {
 }
 
 ul {
-	border: 2px solid green;
+	/* border: 2px solid green; */
 	list-style-type: none;
+	/* text-decoration-style: none; */
+}
+
+nav ul li {
+	/* border: 2px solid red; */
+}
+
+/* Box Model */
+nav {
+	border: 1px solid black;
+	/* padding: 20px;
+	margin: 20px;
+	margin-left: 50px;
+	width: 200px;
+	height: 80px; */
+}
+
+/* Display property  */
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	/* padding: 20px 10px 50px 10px; */
+	padding: 10px 0px;
+}
+
+/* Universal selector  */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+/* Selecting HTML elements using ID  */
+#summary {
+	background-color: #f5f5dc;
+}
+
+#experience {
+	background-color: #ffe4c4;
+}
+
+#education {
+	background-color: #0000ff;
+}
+
+#contact {
+	background-color: #483d8b;
+}
+
+footer {
+	background-color: #228b22;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 10px 0;
 }
