@@ -52,6 +52,9 @@ nav ul li a:hover {
 /* Selecting HTML elements using ID  */
 #summary {
 	background-color: #f5f5dc;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 0;
 }
 
 #experience {
@@ -71,4 +74,13 @@ footer {
 	display: flex;
 	justify-content: space-evenly;
 	padding: 10px 0;
+}
+
+/* Styling using Class Name Selection  */
+.section-title {
+	color: red;
+}
+
+.section-alignment {
+	text-align: center;
 }

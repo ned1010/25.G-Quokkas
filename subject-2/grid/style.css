@@ -1,0 +1,24 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.class-1 {
+	border: 2px solid red;
+}
+.class-2 {
+	border: 2px solid blue;
+}
+.class-3 {
+	border: 2px solid green;
+}
+
+.class-4 {
+	border: 2px solid black;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 2fr 1fr;
+}
